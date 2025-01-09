@@ -1,1 +1,1 @@
-# SistemaGE
+# Sistema de gestion empresarial 
