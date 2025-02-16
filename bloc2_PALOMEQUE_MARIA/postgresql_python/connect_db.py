@@ -1,11 +1,11 @@
-import psycopg2
-    def connection_db(): 1 usage new.
-    conn = psycopg2.connect(
-    database="the_bear",
-    password="maria2003",
-    user="maria",
-    host="localhost",
-    port="5432"
-)
+import psycopg2 
 
-return conn
+def connection_db():
+    conn = psycopg2.connect(
+        database="the_bear",
+        user="maria",
+        password="maria2003",
+        host="localhost",
+        port="5432"
+    )
+    return conn
